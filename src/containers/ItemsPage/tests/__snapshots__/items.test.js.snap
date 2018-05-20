@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ItemsPage /> should match its empty snapshot 1`] = `
+<div
+  className="items"
+>
+  <div
+    className="itemCreator"
+  >
+    <form
+      onSubmit={[Function]}
+    >
+      <input
+        className="itemCreator-input"
+        placeholder="What do you need to do?"
+        type="text"
+      />
+      <input
+        className="itemCreator-button"
+        onClick={[Function]}
+        type="button"
+        value="Add Task"
+      />
+    </form>
+  </div>
+  <div
+    className="itemsList"
+  >
+    <ul
+      className="itemsList-ul"
+    >
+      <p
+        id="items-missing"
+      >
+        Add some tasks above.
+      </p>
+    </ul>
+  </div>
+  <div>
+    <div
+      className="itemsFilter"
+    >
+      <span
+        className="itemsFilter-total"
+      />
+    </div>
+  </div>
+</div>
+`;

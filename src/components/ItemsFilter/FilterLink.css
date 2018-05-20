@@ -1,0 +1,31 @@
+.itemsFilter {
+  border-top: 1px solid hsl(0, 15%, 89%);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.filterLink-wrapper {
+    display: inline;
+}
+
+.filterLink-span {
+    font-weight: bold; 
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.filterLink-anchor {
+  color: inherit;
+	margin: 3px;
+	padding: 3px 7px;
+	text-decoration: none;
+	border: 1px solid transparent;
+	border-radius: 3px;
+}
+
+.itemsFilter-total {
+  padding-left: 45px;
+  position: relative;
+  float: left;
+  left : 0;
+}

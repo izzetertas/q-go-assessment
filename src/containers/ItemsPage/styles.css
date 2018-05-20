@@ -1,0 +1,7 @@
+.items {
+  outline-offset: 20px;
+  border: 1px solid #e8e0e0;
+  margin: auto;
+  max-width: 500px; 
+  margin-top: 10px;
+}

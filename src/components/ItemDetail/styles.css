@@ -1,0 +1,51 @@
+
+.itemDetail-li {
+ display: block;
+ padding: 15px 60px 15px 15px;
+ margin-left: 45px;
+ width: 440px;
+ margin: auto;
+ position: relative;
+  font-size: 24px;
+  border-bottom: 1px solid #ededed;
+}
+
+.itemDetail-li:last-child {
+	border-bottom: none;
+}
+
+.item-done {
+  text-decoration: line-through;
+  opacity: 0.3;
+  overflow: visible;
+}
+
+.itemDetail-toggle {
+  position: relative;
+  left: 0;
+  float: left;
+  text-align: center;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto 0;
+}
+
+.itemDetail-delete{
+  position: relative;
+  right: 30px;
+  float: right;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid #ffffff;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.itemDetail-delete:hover {
+  color: red;
+}
